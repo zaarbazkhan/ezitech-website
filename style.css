@@ -1,0 +1,1490 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+/* iPad Air - Landscape (1024px width) and Portrait (768px width) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically for better display on smaller screens */
+    }
+  
+    .navbar img {
+      margin-top: 20px; /* Adjusted margin for logo */
+      height: 50px; /* Adjusted height for logo on smaller screens */
+      width: auto; /* Responsive width */
+    }
+  
+    .navbar a {
+      margin-top: 10px; /* Adjusted margin for links on smaller screens */
+      padding: 5px 10px; /* Adjusted padding for better spacing on smaller screens */
+    }
+  
+    .navbar span {
+      padding-right: 10px;
+      margin-top: 10px; /* Adjusted margin for separator on smaller screens */
+    }
+  
+    .search input {
+      margin: 10px 10px; /* Adjusted margin for better spacing on smaller screens */
+      height: 40px; /* Adjusted height for input on smaller screens */
+    }
+  
+    .heart {
+      bottom: 10px; /* Adjusted bottom margin for heart icon on smaller screens */
+    }
+  
+    .search p {
+      margin-top: 10px; /* Adjusted margin for paragraph on smaller screens */
+    }
+  
+    .heading {
+      font-size: 20px; /* Adjusted font size for heading on smaller screens */
+      padding: 10px 10px; /* Adjusted padding for better spacing on smaller screens */
+    }
+  
+    .heading p {
+      padding-top: 10px; /* Adjusted padding for better spacing on smaller screens */
+      font-size: 14px; /* Adjusted font size for paragraph on smaller screens */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animated-div:hover {
+    transform: scale(1.2); /* Apply a different transform on hover */
+}
+.hove-div {
+   
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Apply transition to the transform property */
+}
+
+.hove-div:hover {
+    transform: translateY(-10px); /* Move the div 10 pixels above on hover */
+    box-sizing: border-box;
+    
+    box-shadow: 10px 10px white;
+}
+
+
+
+
+.div1{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    font-weight: 10;
+    justify-content: center;
+    
+}
+.div1 i{
+    
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.div1 a{
+    color: white;
+}
+.dropdown{
+    align-items: center;
+    display: inline-flex;
+    list-style: none;
+}
+.active, .navbar ul li:hover{
+    
+    border-radius: 3px;
+}
+.menu{
+    display: none;
+    text-decoration: none;
+    list-style: none;
+}
+ .navbar ul li:hover .menu{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.dropdown ul li
+ span{
+  padding-left: 10px;
+}
+.divchild  i{
+    padding-left: 100px;
+}
+
+nav{
+    display: flex;
+    background-image: url(images/banner.png);
+    width: 100%;
+    height: 700px;
+}
+
+.navbar img{
+    margin-top: 40px;
+    padding-left: 50px;
+    height: 60px;
+    width: 200px;
+}
+
+.navbar a{
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 16.5px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.navbar span{
+    padding-left: 200px;
+}
+hr{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.heading{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.heading p{
+      padding-top: 50px;
+}
+.heading span{
+    padding-left: 10px;
+}
+
+.search input{
+    margin-top: 20px;
+    margin-left: 450px;
+    height: 50px;
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-color: white;
+}
+.heart{
+      position: absolute;
+      bottom: 120px;
+      right: 520px;
+      color: grey;
+
+}
+.search p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 20;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+   width: 200px;
+}
+.container{
+    margin-top: 50px;
+}
+.container h1{
+    text-align: center;
+    
+    color: rgb(66, 64, 64);
+    
+}
+.container1{
+    margin-top: 20px;
+    display: flex;
+}
+.container2 img{
+    flex-basis: 700px;
+    height: 400px;
+    margin-left: 200px;
+}
+.container3 p{
+    flex-basis: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    font-size: small;
+}
+.btn1{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+
+}
+.bar{
+    margin-top: 80px;
+}
+.bar h1{
+    text-align: center;
+    color: rgb(87, 84, 84);
+}
+.bar1{
+    display: flex;
+
+}
+.bar1child1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.signup{
+    flex-basis: 20%;
+}
+.signup img{
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.signup h4{
+    
+   color: darkslategrey;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.signup p{
+    margin-top: 30px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: smaller;
+    color: darkslategrey;
+    
+}
+.jar{
+    margin-top: 80px;
+    
+}
+
+.jar h1{
+    text-align: center;
+    color: darkslategray;
+    
+}
+.jar p{
+    text-align: center;
+    color: darkslategrey;
+    margin-top: 5px;
+}
+.jar2{
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.jar1{
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.jarchild1{
+    margin-top: 30px;
+    height: 120px;
+    width: 120px;
+    background-color: #f0efef;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+.jarchild1 img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.jarchild1 p{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.jarchild1 .para{
+    padding-right: 20px;
+}
+
+.parent{
+    margin-top: 20px;
+    height: 1050px;
+    background-color:rgb(11, 11, 230) ;
+}
+.footer{
+    background-color: rgb(15, 15, 75);
+    height: 500px;
+    
+    
+}
+.picture img{
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 90px;
+    position: relative;
+    top: 0px;
+}
+.footer h1{
+   
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+.about {
+    margin-top: 200px;
+    display: flex;
+    margin-right: 10px;
+}
+.about h1{
+    padding-top: 50px;
+}
+.about1{
+    
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    color: white;
+    
+}
+.about1 h4{
+    padding-top: 20px;
+   
+}
+.about1 p{
+    padding-top: 20px;
+    font-size: small;
+}
+.about2{
+    
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    color: white;
+    
+}
+.about2 h4{
+    padding-top: 20px;
+   
+}
+.about2 p{
+    padding-top: 10px;
+    padding-left: 55px;
+    font-size: 10px;
+}
+.about2 span{
+    position: relative;
+    bottom: 0px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    
+}
+.about2 img{
+    position: relative;
+    width: 40px;
+    top: 30px;
+}
+.pages{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.pages h4{
+    color: white;
+    
+}
+.pages ul{
+    font-size: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.pages li{
+    padding-top: 10px;
+}
+.contacts{
+    margin-top: 18px;
+    margin-left: 150px;
+}
+.contacts h4{
+    color: white;
+    
+}
+.contacts i{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.round{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.roundchild{
+
+    position: relative;
+    right: 100px;
+    height: 400px;
+    width: 700px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 55%;
+}
+.hover-div {
+     cursor: move;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Apply transition to the transform property */
+}
+
+.hover-div:hover {
+    transform: translate(-10px, -10px); /* Move the div 10 pixels up and 10 pixels left on hover */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.phone img{
+
+    position: relative;
+    right: 500px;
+    height: 500px;
+    width: 400px;
+}
+.writing{
+    position: relative;
+    right: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.writing h1{
+   padding-left: 20px;
+}
+.writing p{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: small;
+}
+.play{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.writing img{
+    padding-top: 20px;
+    width: 100px;
+    height: 60px;
+    
+}
+.card{
+    margin-top: 100px;
+}
+.card h1{
+    color: darkslategray;
+    text-align: center;
+}
+.parentcard{
+    margin-top: 20px;
+    display: flex;
+}
+.card1{
+    margin-left: 15px;
+    width: 250px ;
+    height: 250px ;
+}
+.card1 img{
+    height: 130px;
+    width: 250px;
+}
+.card1 p{
+    font-size: 10px;
+    padding-top: 5px;
+    color: gray;
+}
+.card1 h6{
+    color: rgb(17, 17, 17);
+    font-size: 12px;
+    padding-top: 5px;
+}
+.box{
+  height: 20px;
+  background-color: rgb(223, 217, 217);
+  
+  margin-top: 10px;
+}
+.box span{
+    color: rgb(117, 115, 115);
+    font-size: 15px;
+}
+.box1 {
+     padding-right: 10px;
+}
+.boxes{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes1{
+    display: flex;
+    background-color: rgb(8, 8, 245);
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.boxes2{
+    display: flex;
+    background-color: rgb(114, 114, 133);
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: blue;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.boxes3{
+    display: flex;
+    background-color: rgb(114, 114, 133);
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: blue;
+}
+.bton button{
+    width: 220px;
+    background-color:  rgb(8, 8, 245);
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    border-color: white;
+}
+.styling{
+    
+    margin-top: 20px;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(238, 238, 243);
+}
+.styling h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.styling input{
+    position: relative;
+    bottom: 30px;
+    height: 35px;
+    border: 1px solid rgb(107, 105, 105);
+    width: 200px;
+    left: 1100px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.styling1{
+    display: flex;
+
+}
+.kena{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+.kena2{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena2 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena2 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena2 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena2 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+.kena3{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena3 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena3 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena3 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena3 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+
+
+.kena4{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena4 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena4 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena4 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena4 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+.kena5{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena5 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena5 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena5 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena5 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+
+.kena6{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena6 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena6 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena6 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena6 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+.styling2{
+    display: flex;
+     margin-top: 30px;
+     margin-left: 450px;
+}
+ .button button{
+    height:40px ;
+    background-color: rgb(10, 33, 240);
+    width: 120px;
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.bton :hover{
+    cursor: pointer;
+}
+.boxes :hover{
+    background-color: blue;
+    color: white;
+}
+.kena7{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena7 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena7 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena7 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena7 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+
+.kena8{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    ;
+}
+.kena8 img{
+    height: 130px;
+    width: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.kena8 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.kena8 h5{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.kena8 span{
+    padding-left: 160px;
+    font-size: 12px;
+}
+
+
+.hiddenDiv img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv b{
+    font-size: 10px;
+}
+.hiddenDiv .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.hiddenDiv2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv2 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv2 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv2 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv2 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv2 b{
+    font-size: 10px;
+}
+.hiddenDiv2 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.hiddenDiv3 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv3 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv3 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv3 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv3 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv3 b{
+    font-size: 10px;
+}
+.hiddenDiv3 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.hiddenDiv4 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv4 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv4 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv4 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv4 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv4 b{
+    font-size: 10px;
+}
+.hiddenDiv4 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.hiddenDiv5 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv5 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv5 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv5 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv5 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv5 b{
+    font-size: 10px;
+}
+.hiddenDiv5 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.hiddenDiv6 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv6 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv6 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv6 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv6 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv6 b{
+    font-size: 10px;
+}
+.hiddenDiv6 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.hiddenDiv7 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv7 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv7 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv7 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv7 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv7 b{
+    font-size: 10px;
+}
+.hiddenDiv7 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.hiddenDiv8 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.hiddenDiv8 span{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 13px;
+}
+
+.hiddenDiv8 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hiddenDiv8 p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.hiddenDiv8 i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.hiddenDiv8 b{
+    font-size: 10px;
+}
+.hiddenDiv8 .hidebtn{
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.myDiv {
+    /* Your existing styles for myDiv */
+    /* ... */
+    position: relative; /* Ensure the div has a position other than static */
+    transition: top 0.10s ease-in-out; /* Adding a transition for a smooth effect */
+    
+}
+
+.myDiv:hover {
+    top: -20px ;  /* Move the div up by 10 pixels on hover */
+    cursor: pointer;
+    transition: top 10.10s ease-in-out;
+    box-shadow:10px 10px #fff;
+
+    
+}
+
+
+
+
+
+.hiddenDiv {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  
+  top:  ; 
+    left:  ; */
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    
+    
+}
+
+.kena:hover ~ .hiddenDiv {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+
+
+
+
+
+
+.hiddenDiv2 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  
+    left: 150px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena2:hover ~ .hiddenDiv2 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv3 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  
+    left: 400px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena3:hover ~ .hiddenDiv3 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv4 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  
+    left: 600px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena4:hover ~ .hiddenDiv4 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv5 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  
+    left: 800px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena5:hover ~ .hiddenDiv5 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv6 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  cursor: pointer;
+    left: 1000px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena6:hover ~ .hiddenDiv6 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv7 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  cursor: pointer;
+    left: 400px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena7:hover ~ .hiddenDiv7 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+.hiddenDiv8 {
+    display: none; /* Initially hide the div */
+    position: absolute; /* Position it absolutely relative to the .parentDiv */
+  /* Position it below the .parentDiv  */
+  cursor: pointer;
+    left: 600px ; 
+    background-color: #ffffff; /* Set the background color */
+    height: 320px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.3); /* Add a subtle box shadow */
+    transition-duration:50s ;
+    
+}
+
+.kena8:hover ~ .hiddenDiv8 {
+    display: block; /* Show the hidden div when .parentDiv is hovered */
+}
+
+
+
+
+
+
+
+
+/* iPad Air - Landscape (1024px width) and Portrait (768px width) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .myDiv {
+      width: 100%; /* Make each card take up the full width on smaller screens */
+    }
+  
+    .card1 {
+      width: 100%; /* Make each card take up the full width on smaller screens */
+      margin-bottom: 20px; /* Add some spacing between cards */
+    }
+  
+    .card1 img {
+      width: 100%; /* Make images responsive, taking up the full width of the card */
+      height: auto; /* Maintain image aspect ratio */
+    }
+  
+    .box {
+      font-size: 14px; /* Adjusted font size for smaller screens */
+      padding: 10px; /* Added padding for better spacing */
+    }
+  
+    .box hr {
+      margin: 10px 0; /* Added margin for better spacing */
+    }
+  
+    .box span {
+      padding-left: 20px; /* Adjusted padding for better spacing */
+    }
+  
+    .bton {
+      text-align: center; /* Center the button */
+    }
+  
+    .bton button {
+      font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+  
+    .boxes {
+      display: flex;
+      flex-wrap: wrap; /* Allow the boxes to wrap on smaller screens */
+      justify-content: space-around; /* Adjusted spacing between boxes */
+    }
+  
+    .boxes div {
+      width: 30%; /* Adjusted width for smaller screens */
+      margin-bottom: 10px; /* Added margin for better spacing */
+      text-align: center; /* Center the content */
+    }
+  }
